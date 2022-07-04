@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<title>Sign in</title>
+	<style>
+		body{
+			height: 100%;
+			font-family: "Roboto",sans-serif;
+		}
+		.logo{
+			text-align: center;
+		}
+		.header{
+		margin-top: 25px;
+        font-family: "Segoe UI Light",sans-serif;
+        font-size: 25px;
+        text-align: center;
+        }
+		.global-container{
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+        form{
+			padding-top: 10px;
+			font-size: 14px;
+			margin-top: 30px;
+		}
+		.login-form{
+            width: 350px;
+			height: 260px;
+			padding-top: 20px;
+			margin-top: 20px;
+			background-color: whitesmoke;
+			display: block;
+			font-size: 14px;
+			border-radius: 10px;
+		}
+		input[type="user email"],
+		input[type="password"]{
+			border-radius: 7px;
+			margin-bottom: 25px;
+		}
+		.btn{
+			background-color: #238636;
+			font-size: 14px;
+			border: none;
+			color: white;
+			border-radius: 7px;
+			padding: 4px;
+			display: inline-block;
+			width: 100%;
+		}
+		.signup{
+			padding: 10px;
+			margin-top: 25px;
+			text-align: center;
+			border: 1px solid #30363d40;
+			border-radius: 7px;
+			font-size: 14px;
+		}
+		.footer{
+			margin-top: 60px;
+			font-size: 12px;
+			text-align: center;
+		}
+		.list{
+			list-style: none;
+			list-style-type: none;
+		}
+		.mr-3{
+			margin-right: 16px;
+		}
+		.Link--secondary{
+			color: #343a40e0;
+		}
+	</style>
+</head>
+<body>
+
+        <div class="logo">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="50px" height="50px" alt="Github">
+        </div>
+	    <div class="header">
+		<h2 class="card-title text-center">Sign in to GitHub</h2>
+	    </div>
+	    <div class="global-container">
+	    <div class="card login-form">
+	        <div class="card-body">
+            <div class="card-text">
+			<div class="form-group">
+				<label for="user email">Username or email address</label>
+				<input type="user email" class="form-control form-control-sm" id="user email">
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<a href="https://github.com/password_reset" style="float: right; font-size: 12px;">Forgot Password?</a>
+				<input type="password" class="form-control form-control-sm" id="password">
+			</div>
+				<a class="btn" href="https://github.com/session" type="submit">Sign In</a>
+	        </div>
+            </div>
+            <div class="signup">
+				New to GitHub?  
+				<a href="https://github.com">Create an account.</a>
+			</div>
+	   
+        <div class="footer container">
+        	<ul class="list d-flex flex-justify-center">
+        		<li class="mr-3">
+        			<a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a>
+        		</li>
+        	    <li class="mr-3">
+        		    <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Privacy</a>
+        	    </li>
+        	    <li class="mr-3">
+        	    	<a href="https://github.com/security">Security</a>
+        	    </li>
+        	    <li>
+        	    	<a class="Link--secondary" href="https://support.github.com/?tags=dotcom-direct">Contact GitHub</a>
+        	    </li>
+        	</ul>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
